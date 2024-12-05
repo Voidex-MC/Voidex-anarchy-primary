@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+    php:
+        build:
+            context: ./_php
+        container_name: php-container
+        networks:
+            - pocketmine-net
+
+    pocketmine:
+        build:
+            context: ./
+        container_name: pocketmine-mp
+        depends_on:
+            - php
+        ports:
+            - "19132:19132/udp"
+        networks:
+            - pocketmine-net
+
+networks:
+    pocketmine-net:
+        driver: bridge
