@@ -1,15 +1,13 @@
-version: "3.8"
-
 services:
     geyser:
         build:
             context: .
             dockerfile: Dockerfile
-        container_name: minecraft-geyser
+        container_name: Voidex-MC
         ports:
             - "25565:25565"
             - "19132:19132/udp"
         volumes:
-            - ./app:/app/app
+            - ./app:/app
         stdin_open: true
         tty: true

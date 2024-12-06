@@ -1,3 +1,1 @@
-# By setting this file to true you are indicating your agreement to the EULA.
-# For more information see http://aka.ms/MinecraftEULA
 eula=true
