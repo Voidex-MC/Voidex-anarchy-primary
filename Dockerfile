@@ -1,19 +1,15 @@
-# Используем минимальную базу
-FROM ubuntu:20.04
+FROM eclipse-temurin:21-jdk-alpine
 
-RUN apt-get update && apt-get install -y \
-    wget \
-    curl \
-    tar \
-    unzip \
-    ca-certificates \
-    libcurl4-openssl-dev \
-    libssl-dev \
-    && rm -rf /var/lib/apt/lists/*
+WORKDIR /app
 
-WORKDIR /.
-COPY pocketmine.phar /pocketmine/pocketmine.phar
+RUN apk add --no-cache bash curl
 
-EXPOSE 19132/udp
+COPY app/start.sh /app/start.sh
+COPY app/server.jar /app/server.jar
+COPY app/eula.txt /app/eula.txt
 
-CMD ["php", "/pocketmine/pocketmine.phar", "start"]
+RUN chmod +x /app/start.sh
+
+EXPOSE 25565 19132/udp
+
+CMD ["/app/start.sh"]
