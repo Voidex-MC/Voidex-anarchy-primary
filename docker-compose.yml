@@ -1,24 +1,15 @@
-version: '3.8'
+version: "3.8"
 
 services:
-    php:
+    geyser:
         build:
-            context: ./_php
-        container_name: php-container
-        networks:
-            - pocketmine-net
-
-    pocketmine:
-        build:
-            context: ./
-        container_name: pocketmine-mp
-        depends_on:
-            - php
+            context: .
+            dockerfile: Dockerfile
+        container_name: minecraft-geyser
         ports:
+            - "25565:25565"
             - "19132:19132/udp"
-        networks:
-            - pocketmine-net
-
-networks:
-    pocketmine-net:
-        driver: bridge
+        volumes:
+            - ./app:/app/app
+        stdin_open: true
+        tty: true
