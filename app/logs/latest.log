@@ -1,216 +1,214 @@
-[06:22:54] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[06:22:54] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[06:22:54] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[06:22:54] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
-[06:22:54] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_212, running on Linux:amd64:5.15.167.4-microsoft-standard-WSL2, installed at /usr/lib/jvm/java-1.8-openjdk/jre
-[06:22:54] [main/INFO] [FML]: Searching /app/./mods for mods
-[06:22:54] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in mw3.0_sqr-0.7.25_BETA_mc1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[06:22:54] [main/WARN] [FML]: The coremod weaponlib (com.vicmatskiv.weaponlib.core.WeaponlibCorePlugin) is not signed!
-[06:22:54] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from spongeforge-1.12.2-2838-7.4.7.jar
-[06:22:54] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[06:22:54] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
-[06:22:54] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8 Source=file:/app/./mods/spongeforge-1.12.2-2838-7.4.7.jar Service=LaunchWrapper Env=SERVER
-[06:22:54] [main/WARN] [FML]: The coremod SpongeCoremod (org.spongepowered.mod.SpongeCoremod) is not signed!
-[06:22:54] [main/INFO] [mixin]: Compatibility level set to JAVA_8
-[06:22:55] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[06:22:55] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[06:22:55] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[06:22:55] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[06:22:57] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
-[06:22:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[06:22:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[06:22:57] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
-[06:22:57] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@61d01788
-[06:22:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[06:22:57] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[06:22:57] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
-[06:22:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[06:22:57] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
-[06:23:00] [main/WARN] [mixin]: @Mixin target net/minecraft/block/state/BlockStateContainer$StateImplementation is public in mixins.common.api.json:mcp.block.state.StateImplementationMixin_API and should be specified in value
-[06:23:06] [main/WARN] [mixin]: Static binding violation: PRIVATE @Overwrite method func_189509_E in mixins.common.core.json:world.WorldMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
-[06:23:07] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
-[06:23:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
-[06:23:13] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
-[06:23:13] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[06:23:13] [Server console handler/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: java.io.IOError: java.io.IOException: Unable to parse columns
-[06:23:13] [Server console handler/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at org.jline.terminal.impl.AbstractPosixTerminal.getSize(AbstractPosixTerminal.java:62)
-[06:23:13] [Server console handler/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:485)
-[06:23:13] [Server console handler/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:390)
-[06:23:13] [Server console handler/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraftforge.server.console.TerminalHandler.handleCommands(TerminalHandler.java:61)
-[06:23:13] [Server console handler/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraft.server.dedicated.DedicatedServer$2.run(DedicatedServer.java:99)
-[06:23:13] [Server console handler/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1061]: Caused by: java.io.IOException: Unable to parse columns
-[06:23:13] [Server console handler/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1061]: 	at org.jline.terminal.impl.ExecPty.doGetInt(ExecPty.java:278)
-[06:23:13] [Server console handler/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1061]: 	at org.jline.terminal.impl.ExecPty.doGetSize(ExecPty.java:263)
-[06:23:13] [Server console handler/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1061]: 	at org.jline.terminal.impl.ExecPty.getSize(ExecPty.java:170)
-[06:23:13] [Server console handler/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1061]: 	at org.jline.terminal.impl.AbstractPosixTerminal.getSize(AbstractPosixTerminal.java:60)
-[06:23:13] [Server console handler/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1061]: 	... 4 more
-[06:23:13] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[06:23:13] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
-[06:23:14] [Server thread/INFO] [Sponge]: Found mcmod.info at jar:file:/app/./mods/spongeforge-1.12.2-2838-7.4.7.jar!/mcmod.info
-[06:23:14] [Server thread/INFO] [Sponge]: Creating injector in stage 'PRODUCTION'
-[06:23:20] [Server thread/INFO] [FML]: Searching /app/./mods for mods
-[06:23:22] [Server thread/INFO] [FML]: Forge Mod Loader has identified 8 mods to load
-[06:23:22] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
-[06:23:22] [Server thread/WARN] [FML]: Missing English translation for spongeapi: assets/spongeapi/lang/en_us.lang
-[06:23:22] [Server thread/WARN] [FML]: Missing English translation for spongeforge: assets/spongeforge/lang/en_us.lang
-[06:23:22] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, spongeapi, sponge, spongeforge, mw] at CLIENT
-[06:23:22] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, spongeapi, sponge, spongeforge, mw] at SERVER
-[06:23:23] [Server thread/WARN] [Sponge]: There's no certificate fingerprint available
-[06:23:23] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
-[06:23:23] [Server thread/INFO] [FML]: Found 1168 ObjectHolder annotations
-[06:23:23] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[06:23:23] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[06:23:23] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[06:23:23] [Forge Version Check/INFO] [forge.VersionCheck]: [spongeforge] Starting version check at https://files.minecraftforge.net/maven/org/spongepowered/spongeforge/promotions_slim.json
-[06:23:23] [Server thread/INFO] [org.spongepowered.mod.SpongeMod]: Log test
-[06:23:28] [Forge Version Check/INFO] [forge.VersionCheck]: [spongeforge] Found status: OUTDATED Target: 7.1.2
-[06:23:28] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[06:23:31] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileturret_base`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileweapons_case`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileweapons_case_small`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilerussian_weapons_case`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileammo_box`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileweapons_locker`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilefridge_open`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilefridge_closed`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileartillery_prop`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilesupply_drop`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilemedical_crate`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilelocker`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilescp_locker`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilebarrel`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileexplosive_barrel`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilepc`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilelaptop`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilemonitor`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilefilingcabinet`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilefilingcabinet_opened`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileshelf_right`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileshelf_left`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileshelf_top`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tiletv`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileceiling_tv`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileceiling_tv_rotated`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileoffice_chair`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileoffice_chair_2`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tiledesk_corner`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tiledesk_corner_alt1`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tiledesk_left`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tiledesk_left_alt1`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tiledesk_middle`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tiledesk_middle_alt1`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tiledesk_right`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tiledesk_right_alt1`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tiledesk_shelf`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tiledesk_shelf_alt1`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tiledesk_shelf_alt2`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tiledesk_shelf_alt3`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilebarrier`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilebarrier_rotated`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilebody_bag`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilehanging_body`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileimpaled_body`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tiledumpster`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilewooden_crate`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilewooden_crate_opened`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileoperating_table`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileoperating_table_alt`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileforklift`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileforklift_alt`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tiletrusses`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileceiling_lamp`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileceiling_lamp_alt`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilevent`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilevent_rotated`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilevent_corner`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilevent_corner_rotated`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilevent_corner_rotated_alt`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilevent_intersection`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilevent_end`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilewhite_desk_left`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilewhite_desk_middle`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilewhite_desk_right`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tiletrash_bin`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilecaution_sign`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileelectric_box`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileelectric_box_opened`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilehome_chair`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileoutdoor_chair`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilehome_chair_rotated`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileoutdoor_chair_rotated`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilevending_machine`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileserverrackleft`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileserverrackemptyleft`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileserverrackleftalt`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileserverrackleftalt2`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileserverrackleftalt3`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileserverrackemptyright`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileserverrackright`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileserverrackrightalt`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileserverracktopleft`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileserverracktopright`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileduelfloodlight`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilefloodlight`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileradio_rotated`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileradio`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilecamera_rotated`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilepropanetank`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tiletowablefloodlight`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilehescobastion`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilesandbag`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilesandbagwall`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilecrossgravestone`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilecrossgravestone2`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilecrossgravestone3`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilegravestoneskull`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilegravestone`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilescarecrow`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilespookyghost`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilespookyghost2`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilespookyghost3`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileswat_truck`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileump45_gfl`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/INFO] [FML]: Applying holder lookups
-[06:23:36] [Server thread/INFO] [FML]: Holder lookups applied
-[06:23:36] [Server thread/INFO] [FML]: Applying holder lookups
-[06:23:36] [Server thread/INFO] [FML]: Holder lookups applied
-[06:23:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `sponge` for name `human`, expected `spongeforge`. This could be a intended override, but in most cases indicates a broken mod.
-[06:23:36] [Server thread/INFO] [FML]: Applying holder lookups
-[06:23:36] [Server thread/INFO] [FML]: Holder lookups applied
-[06:23:36] [Server thread/INFO] [FML]: Applying holder lookups
-[06:23:36] [Server thread/INFO] [FML]: Holder lookups applied
-[06:23:36] [Server thread/INFO] [FML]: Injecting itemstacks
-[06:23:36] [Server thread/INFO] [FML]: Itemstack injection complete
-[06:23:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
-[06:23:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
-[06:23:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
-[06:23:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
-[06:23:36] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
-[06:23:37] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[06:23:37] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
-[06:23:37] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[06:23:37] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
-[06:23:37] [Server thread/INFO] [FML]: Applying holder lookups
-[06:23:37] [Server thread/INFO] [FML]: Holder lookups applied
-[06:23:37] [Server thread/INFO] [FML]: Injecting itemstacks
-[06:23:37] [Server thread/INFO] [FML]: Itemstack injection complete
-[06:23:37] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 8 mods
-[06:23:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
-[06:23:37] [Server thread/INFO] [Sponge]: Checking for worlds that need to be migrated...
-[06:23:37] [Server thread/INFO] [Sponge]: No worlds were found in need of migration.
-[06:23:38] [Server thread/ERROR] [FML.ModTracker]: This world was saved with mod forgeessentials which appears to be missing, things may not work well
-[06:23:38] [Server thread/ERROR] [FML.ModTracker]: This world was saved with mod forgeessentials-sponge which appears to be missing, things may not work well
-[06:23:38] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[06:23:39] [Server thread/INFO] [FML]: Applying holder lookups
-[06:23:39] [Server thread/INFO] [FML]: Holder lookups applied
-[06:23:40] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
-[06:23:40] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 6 advancement trees
-[06:23:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for world world (minecraft:overworld/0)
-[06:23:41] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 0%
-[06:23:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 51%
-[06:23:43] [Server thread/INFO] [Sponge]: Loading world [world] (minecraft:overworld/0)
-[06:23:43] [Server thread/WARN] [Sponge]: World [DIM-1] (minecraft:nether/-1) is set to not load on startup. To load it later, enable [load-on-startup] in config or use a plugin.
-[06:23:43] [Server thread/WARN] [Sponge]: World [DIM1] (minecraft:the_end/1) is set to not load on startup. To load it later, enable [load-on-startup] in config or use a plugin.
-[06:23:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (6.068s)! For help, type "help" or "?"
-[06:24:05] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Time ran backwards! Did the system time change?
+[06:59:11] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[06:59:11] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[06:59:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[06:59:11] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
+[06:59:11] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_212, running on Linux:amd64:5.15.167.4-microsoft-standard-WSL2, installed at /usr/lib/jvm/java-1.8-openjdk/jre
+[06:59:11] [main/INFO] [FML]: Searching /app/./mods for mods
+[06:59:11] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in mw3.0_sqr-0.7.25_BETA_mc1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[06:59:11] [main/WARN] [FML]: The coremod weaponlib (com.vicmatskiv.weaponlib.core.WeaponlibCorePlugin) is not signed!
+[06:59:11] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from spongeforge-1.12.2-2838-7.4.7.jar
+[06:59:11] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[06:59:11] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[06:59:11] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8 Source=file:/app/./mods/spongeforge-1.12.2-2838-7.4.7.jar Service=LaunchWrapper Env=SERVER
+[06:59:11] [main/WARN] [FML]: The coremod SpongeCoremod (org.spongepowered.mod.SpongeCoremod) is not signed!
+[06:59:11] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[06:59:11] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[06:59:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[06:59:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[06:59:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[06:59:13] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[06:59:13] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[06:59:13] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[06:59:13] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[06:59:13] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@4bdcaf36
+[06:59:13] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[06:59:13] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[06:59:13] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[06:59:13] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[06:59:13] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[06:59:15] [main/WARN] [mixin]: @Mixin target net/minecraft/block/state/BlockStateContainer$StateImplementation is public in mixins.common.api.json:mcp.block.state.StateImplementationMixin_API and should be specified in value
+[06:59:18] [main/WARN] [mixin]: Static binding violation: PRIVATE @Overwrite method func_189509_E in mixins.common.core.json:world.WorldMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[06:59:19] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[06:59:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[06:59:24] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
+[06:59:24] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[06:59:24] [Server console handler/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: java.io.IOError: java.io.IOException: Unable to parse columns
+[06:59:24] [Server console handler/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at org.jline.terminal.impl.AbstractPosixTerminal.getSize(AbstractPosixTerminal.java:62)
+[06:59:24] [Server console handler/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:485)
+[06:59:24] [Server console handler/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:390)
+[06:59:24] [Server console handler/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraftforge.server.console.TerminalHandler.handleCommands(TerminalHandler.java:61)
+[06:59:24] [Server console handler/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraft.server.dedicated.DedicatedServer$2.run(DedicatedServer.java:99)
+[06:59:24] [Server console handler/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1061]: Caused by: java.io.IOException: Unable to parse columns
+[06:59:24] [Server console handler/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1061]: 	at org.jline.terminal.impl.ExecPty.doGetInt(ExecPty.java:278)
+[06:59:24] [Server console handler/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1061]: 	at org.jline.terminal.impl.ExecPty.doGetSize(ExecPty.java:263)
+[06:59:24] [Server console handler/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1061]: 	at org.jline.terminal.impl.ExecPty.getSize(ExecPty.java:170)
+[06:59:24] [Server console handler/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1061]: 	at org.jline.terminal.impl.AbstractPosixTerminal.getSize(AbstractPosixTerminal.java:60)
+[06:59:24] [Server console handler/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1061]: 	... 4 more
+[06:59:24] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[06:59:24] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[06:59:24] [Server thread/INFO] [Sponge]: Found mcmod.info at jar:file:/app/./mods/spongeforge-1.12.2-2838-7.4.7.jar!/mcmod.info
+[06:59:24] [Server thread/INFO] [Sponge]: Creating injector in stage 'PRODUCTION'
+[06:59:28] [Server thread/INFO] [FML]: Searching /app/./mods for mods
+[06:59:30] [Server thread/INFO] [FML]: Forge Mod Loader has identified 8 mods to load
+[06:59:30] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[06:59:30] [Server thread/WARN] [FML]: Missing English translation for spongeapi: assets/spongeapi/lang/en_us.lang
+[06:59:30] [Server thread/WARN] [FML]: Missing English translation for spongeforge: assets/spongeforge/lang/en_us.lang
+[06:59:30] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, spongeapi, sponge, spongeforge, mw] at CLIENT
+[06:59:30] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, spongeapi, sponge, spongeforge, mw] at SERVER
+[06:59:30] [Server thread/WARN] [Sponge]: There's no certificate fingerprint available
+[06:59:30] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[06:59:30] [Server thread/INFO] [FML]: Found 1168 ObjectHolder annotations
+[06:59:30] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[06:59:30] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[06:59:31] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[06:59:31] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[06:59:31] [Server thread/INFO] [org.spongepowered.mod.SpongeMod]: Log test
+[06:59:32] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
+[06:59:32] [Forge Version Check/INFO] [forge.VersionCheck]: [spongeforge] Starting version check at https://files.minecraftforge.net/maven/org/spongepowered/spongeforge/promotions_slim.json
+[06:59:32] [Forge Version Check/INFO] [forge.VersionCheck]: [spongeforge] Found status: OUTDATED Target: 7.1.2
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileturret_base`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileweapons_case`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileweapons_case_small`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilerussian_weapons_case`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileammo_box`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileweapons_locker`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilefridge_open`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilefridge_closed`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileartillery_prop`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilesupply_drop`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilemedical_crate`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilelocker`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilescp_locker`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilebarrel`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileexplosive_barrel`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilepc`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilelaptop`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilemonitor`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilefilingcabinet`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilefilingcabinet_opened`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileshelf_right`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileshelf_left`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileshelf_top`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tiletv`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileceiling_tv`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileceiling_tv_rotated`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileoffice_chair`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileoffice_chair_2`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tiledesk_corner`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tiledesk_corner_alt1`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tiledesk_left`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tiledesk_left_alt1`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tiledesk_middle`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tiledesk_middle_alt1`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tiledesk_right`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tiledesk_right_alt1`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tiledesk_shelf`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tiledesk_shelf_alt1`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tiledesk_shelf_alt2`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tiledesk_shelf_alt3`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilebarrier`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilebarrier_rotated`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilebody_bag`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilehanging_body`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileimpaled_body`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tiledumpster`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilewooden_crate`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilewooden_crate_opened`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileoperating_table`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileoperating_table_alt`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileforklift`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileforklift_alt`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tiletrusses`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileceiling_lamp`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileceiling_lamp_alt`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilevent`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilevent_rotated`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilevent_corner`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilevent_corner_rotated`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilevent_corner_rotated_alt`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilevent_intersection`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilevent_end`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilewhite_desk_left`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilewhite_desk_middle`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilewhite_desk_right`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tiletrash_bin`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilecaution_sign`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileelectric_box`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileelectric_box_opened`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilehome_chair`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileoutdoor_chair`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilehome_chair_rotated`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileoutdoor_chair_rotated`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilevending_machine`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileserverrackleft`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileserverrackemptyleft`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileserverrackleftalt`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileserverrackleftalt2`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileserverrackleftalt3`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileserverrackemptyright`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileserverrackright`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileserverrackrightalt`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileserverracktopleft`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileserverracktopright`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileduelfloodlight`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilefloodlight`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileradio_rotated`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileradio`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilecamera_rotated`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilepropanetank`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tiletowablefloodlight`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilehescobastion`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilesandbag`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilesandbagwall`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilecrossgravestone`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilecrossgravestone2`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilecrossgravestone3`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilegravestoneskull`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilegravestone`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilescarecrow`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilespookyghost`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilespookyghost2`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilespookyghost3`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileswat_truck`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileump45_gfl`, expected `mw`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/INFO] [FML]: Applying holder lookups
+[06:59:43] [Server thread/INFO] [FML]: Holder lookups applied
+[06:59:43] [Server thread/INFO] [FML]: Applying holder lookups
+[06:59:43] [Server thread/INFO] [FML]: Holder lookups applied
+[06:59:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `sponge` for name `human`, expected `spongeforge`. This could be a intended override, but in most cases indicates a broken mod.
+[06:59:43] [Server thread/INFO] [FML]: Applying holder lookups
+[06:59:43] [Server thread/INFO] [FML]: Holder lookups applied
+[06:59:43] [Server thread/INFO] [FML]: Applying holder lookups
+[06:59:43] [Server thread/INFO] [FML]: Holder lookups applied
+[06:59:43] [Server thread/INFO] [FML]: Injecting itemstacks
+[06:59:43] [Server thread/INFO] [FML]: Itemstack injection complete
+[06:59:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[06:59:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[06:59:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[06:59:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[06:59:43] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
+[06:59:43] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[06:59:43] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[06:59:43] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[06:59:43] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[06:59:44] [Server thread/INFO] [FML]: Applying holder lookups
+[06:59:44] [Server thread/INFO] [FML]: Holder lookups applied
+[06:59:44] [Server thread/INFO] [FML]: Injecting itemstacks
+[06:59:44] [Server thread/INFO] [FML]: Itemstack injection complete
+[06:59:44] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 8 mods
+[06:59:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[06:59:44] [Server thread/INFO] [Sponge]: Checking for worlds that need to be migrated...
+[06:59:44] [Server thread/INFO] [Sponge]: No worlds were found in need of migration.
+[06:59:44] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[06:59:45] [Server thread/INFO] [FML]: Applying holder lookups
+[06:59:45] [Server thread/INFO] [FML]: Holder lookups applied
+[06:59:46] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[06:59:46] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 6 advancement trees
+[06:59:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for world world (minecraft:overworld/0)
+[06:59:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 0%
+[06:59:49] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 68%
+[06:59:49] [Server thread/INFO] [Sponge]: Loading world [world] (minecraft:overworld/0)
+[06:59:49] [Server thread/WARN] [Sponge]: World [DIM-1] (minecraft:nether/-1) is set to not load on startup. To load it later, enable [load-on-startup] in config or use a plugin.
+[06:59:49] [Server thread/WARN] [Sponge]: World [DIM1] (minecraft:the_end/1) is set to not load on startup. To load it later, enable [load-on-startup] in config or use a plugin.
+[06:59:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (5.229s)! For help, type "help" or "?"
+[07:06:05] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Time ran backwards! Did the system time change?
